@@ -94,18 +94,18 @@ if _G.Settings["Low Rendering"] or (_G.Settings.Other and _G.Settings.Other["Low
     settings().Rendering.QualityLevel = 1
 end
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "discord.gg/rips",
+    Title = "discord.gg/rYF7McmUeM",
     Text = "Loading FPS Booster...",
     Duration = math.huge,
-    Button1 = "Okay"
+    Button1 = "Okay Razo Sama"
 })
 local Descendants = ReturnDescendants()
 local WaitNumber = 500
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "discord.gg/rips",
+    Title = "discord.gg/rYF7McmUeM",
     Text = "Checking " .. #Descendants .. " Instances...",
     Duration = 5,
-    Button1 = "Okay"
+    Button1 = "Okay Razo sama"
 })
 for i, v in pairs(Descendants) do
     CheckIfBad(v)
@@ -116,9 +116,20 @@ for i, v in pairs(Descendants) do
     end
 end
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "discord.gg/rips",
+    Title = "discord.gg/rYF7McmUeM",
     Text = "FPS Booster Loaded!",
     Duration = math.huge,
-    Button1 = "Okay"
+    Button1 = "Okay Razo sama"
 })
 game.DescendantAdded:Connect(CheckIfBad)
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
