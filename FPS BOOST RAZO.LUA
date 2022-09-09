@@ -97,7 +97,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "discord.gg/rYF7McmUeM",
     Text = "Loading FPS Booster...",
     Duration = math.huge,
-    Button1 = "Okay Razo Sama"
+    Button1 = "Okay Razo ABI"
 })
 local Descendants = ReturnDescendants()
 local WaitNumber = 500
@@ -105,7 +105,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "discord.gg/rYF7McmUeM",
     Text = "Checking " .. #Descendants .. " Instances...",
     Duration = 5,
-    Button1 = "Okay Razo sama"
+    Button1 = "Okay Razo ABI"
 })
 for i, v in pairs(Descendants) do
     CheckIfBad(v)
@@ -119,6 +119,6 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "discord.gg/rYF7McmUeM",
     Text = "FPS Booster Loaded!",
     Duration = math.huge,
-    Button1 = "Okay Razo sama"
+    Button1 = "Okay Razo ABI"
 })
 game.DescendantAdded:Connect(CheckIfBad)
