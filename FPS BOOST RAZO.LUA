@@ -122,14 +122,3 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Button1 = "Okay Razo sama"
 })
 game.DescendantAdded:Connect(CheckIfBad)
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
